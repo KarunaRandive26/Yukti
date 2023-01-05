@@ -47,14 +47,14 @@ const Userinfo = () => {
                 username, address, date_of_birth, Full_name, gender, Nationality, Languauge, City, State, userData
             })
         });
-        history("/");
+        history("/dashboard");
         const data = await res1.json();
         if (res1.status === 400 || !data) {
             window.alert("INVALID REGISTRAION");
         }
         else {
             window.alert("Sucessfull REGISTRAION");
-            history("/");
+            history("/dashboard");
         }
     }
 
