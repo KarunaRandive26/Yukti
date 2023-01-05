@@ -1,0 +1,570 @@
+.App {
+  height: 100%;
+  font-size: 20px;
+}
+.container{
+  padding: 0 5vw;
+}
+
+.navbar-brand{
+  color: #ffffff;
+  font-size: 25px;
+}
+.karuna{
+  font-size: 20px;
+  background-color: rgba(61, 12, 65, 0.474);
+  box-shadow: 2px 2px rgb(255, 255, 255);
+}
+.nav-link{
+  color:rgb(208, 208, 208)  
+}
+.menu_active{
+  color: white;
+  border-color: #ffffff00;
+  border-bottom: 2px solid;
+}
+.tag{
+  color:white;
+  background-image: url('./images/woman.jpeg');
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-color: rgb(0, 0, 0);
+  background-blend-mode: multiply;
+  background-color: rgb(153, 121, 158); 
+  display: flex;
+  padding: 5vh 5vw ;
+  align-items: center;
+  justify-content: center;
+}
+.info{
+  text-align: start;
+}
+.first{
+  align-items: center;
+}
+.two{
+  align-items: center;
+}
+.line-1{
+  font-size: 7vw;
+}
+.line-2{
+  font-size:4vw;
+}
+.line-3{
+  font-size: 3vw;
+}
+.page{
+  padding-bottom: 5vh;
+}
+.main-box{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  background-image: url("./images/loginbg.jpg");
+  background-size: cover;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  opacity: 0.8;
+  font-family: "Open-Sans";
+  src: url('./fonts/OpenSans_Condensed-Regular.ttf');
+  border-radius: 10px;
+  box-shadow: 0 0.2em 0.5em rgb(89, 89, 89);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-box > input{
+  width: 50%;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  opacity: 0.7;
+  margin-top: 2vh;
+}
+@media(max-width:850px){
+  .main-box{
+    width: 60vw;  
+  font-size: 4vw;
+  }
+  .service{
+    flex-wrap: wrap;
+    
+  }
+  .card{
+    width: 60%;
+  }
+}
+
+.page{
+  padding-top: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+}
+.signlink{
+  text-decoration: none;
+  color: white;
+}
+.new-sign{
+  display: flex;
+  text-shadow: 2px 2px black;
+}
+.signlink, .loginlink{
+  font-weight: bold;
+  text-shadow: white;
+  padding-left: 5px;
+  color: rgb(255, 255, 113);
+}
+.login-btn{
+  padding: 5px 20px;
+  margin: 15px;
+  border-radius: 2px;
+  color: black;
+  transition: 0.5s;
+  background-color: antiquewhite;
+}
+.login-btn:hover{
+  transform: scale(1.15);
+}
+.about{
+  border-radius: 5px;
+  position: relative;
+  top: -4vh;
+  margin: 0 5vw;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 6px 0 rgb(121, 121, 121);
+  padding: 5vh 5vw; 
+}
+
+.service{
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;  
+}
+.card{
+  width: 15rem;
+  height: 15rem;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 20px 10px 0px;  
+}
+.card-body{
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 6px 6px 0 rgb(83, 83, 83);
+}
+.titlename{
+  color: #000000;
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 2px 1px white;
+}
+.card:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.profile{
+  background-image: url(../public/images/loginbg.jpg);
+  background-size: cover;
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  opacity: 10; 
+  border-radius: 7vh;
+  height: 7vh;
+  width: 7vh;
+}
+
+.personal-info{
+  background-color: rgb(210, 171, 210);
+  padding: 5vw 5vw;
+  display: flex;
+  align-items: center;
+}
+.profile-pic{
+  width:25vw;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 6px 0 rgb(43, 43, 43);
+}
+.user-info{
+  width: 75vw;
+  margin: 10px;
+}
+.field{
+  color: rgb(74, 74, 74);
+  font-weight: 400;
+}
+tr{
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+}
+
+
+#home{
+  /* background: rgb(0,101,219);
+  background: linear-gradient(90deg,rgb(176, 98, 34) 50% ,rgb(0,212,255,1)100%); */
+  background-image: url(./images/woman.png);
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-size: cover;
+}
+
+.form{
+  background: rgb(0,101,219);
+  background: linear-gradient(90deg,rgb(0,101,219) 50% ,rgb(0,212,255,1)100%);
+  min-height: 450px;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+
+
+
+
+/* SERVICS */
+body {
+  background-color:#B3E5FC;
+      }
+
+.card {
+  border: none;
+  border-radius: 20px;
+  transition:all 0.5s;
+  cursor:pointer;
+}
+
+.card:hover{
+  transform:scale(1.1);
+ 
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold
+}
+
+.square {
+  background-color: #fedcdd;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.email {
+  font-size: 14px;
+  margin-left: 25px;
+  font-weight: bold
+}
+
+.dummytext {
+  font-size: 12px;
+  font-weight: normal;
+  color: #848590
+}
+
+.icons i {
+  color: #FA222A;
+  margin-left: 25px
+}
+
+
+.icons span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #848590
+}
+
+.square1 {
+  background-color: #cfe3fe;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.icons1 i {
+  color: #497eea;
+  margin-left: 25px
+}
+
+.icons1 span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #848590
+}
+
+.square2 {
+  background-color: #ffefc5;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.icons2 i {
+  color: #ffc227;
+  margin-left: 25px
+}
+
+.icons2 span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #848590
+}
+
+.square5 {
+  background-color: #41cfff;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.icons5 i {
+  color: #41cfff;
+  margin-left: 25px
+}
+
+.icons5 span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #848590
+}
+
+.square4 {
+  background-color: #eae6fd;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.icons4 i {
+  color: #6a35ff;
+  margin-left: 25px
+}
+
+.icons4 span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #848590
+}
+
+.square3 {
+  background-color: #fedfce;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.icons3 i {
+  color: #ff8339;
+  margin-left: 25px
+}
+
+.icons3 span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #848590
+}
+ 
+
+.whole{
+  text-align: center;
+}
+.profile{
+  
+  background-image: url(../public/images/loginbg.jpg);
+  background-size: cover;
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  opacity: 10; 
+  border-radius: 7vh;
+  height: 7vh;
+  width: 7vh;
+}
+
+.user-profile{
+  width: 90vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.pic{
+  border-radius: 25vh;
+  height: 25vh;
+  width: 25vh;
+  padding: 10px
+}
+.pro-line{
+  color: rgb(112, 112, 112);
+  font-size: 40px;
+  font-weight: bold;
+}
+.profilecard{
+  width: 80%;
+}
+.profile-template{
+  padding: 20px;
+  background-color: rgb(236, 236, 236);
+}
+.edit{
+  color: white;
+  background-color: rgb(15, 148, 15);
+}
+.profile-pic{
+  background-image: url(../public/images/loginbg.jpg);
+  background-size: cover;
+border-radius: 15vw;
+  height:15vw;
+  width: 15vw;
+}
+.user-profile{
+  padding: 20px 0;
+}
+.page-1{
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  font: 300;
+}
+.prof{
+  padding: 10px;
+}
+.profile-photo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fieldcard{
+  padding: 10px;
+}
+.Pro-name{
+  font-size: 3vw;
+}
+.Pro-mail{
+  font-size: 3vw;
+}
+.field{
+  color: grey;
+  font-size: 15px;
+}
+.data{
+  font-size: 25px;
+}
